@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "node_modules/.bin/webpack --mode production",
-    "start": "node_modules/.bin/webpack-dev-server --mode development"
+    "prepublish": "node_modules/.bin/webpack --config webpack.prod.js",
+    "start": "node_modules/.bin/webpack-dev-server --open --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,10 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
     "webpack": "^4.10.2",
     "webpack-cli": "^3.0.2",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
   }
 }
