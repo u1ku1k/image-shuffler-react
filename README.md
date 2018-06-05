@@ -12,4 +12,5 @@ npm start
 npm i
 npm prepublish
 ```
+
 Static file will be placed in ```./dist```.
