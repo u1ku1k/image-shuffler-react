@@ -5,5 +5,8 @@
     "ecmaFeatures": {
       "jsx": true
     }
-  }
+  },
+  "plugins": [
+    "html"
+  ]
 }
