@@ -1,12 +1,6 @@
-import css from './style.css';
-import bootstrap from 'bootstrap';
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './app'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-class App extends React.Component {
-  render() {
-    return <h1>test123</h1>
-  }
-}
-
-ReactDOM.render(<App/>, document.getElementById('react-container'));
+ReactDOM.render(<App/>, document.getElementById('react-container'))
